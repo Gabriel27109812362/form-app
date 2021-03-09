@@ -1,0 +1,10 @@
+<div class="app-container">
+  <img
+    src="assets/Angular_full_color_logo.png"
+    alt="Angulart logo"
+    class="logo"
+  />
+  <div [@routeAnimations]="prepareRoute(outlet)" class="box">
+    <router-outlet #outlet="outlet"></router-outlet>
+  </div>
+</div>
